@@ -1,0 +1,44 @@
+# Docker-specific files and directories
+.dockerignore
+.git
+.gitignore
+.DS_Store
+Dockerfile
+compose.yml
+.env.example
+
+# Cache directories
+node_modules
+vendor
+public/build # For Vite or similar build tools
+storage/cache
+bootstrap/cache
+
+# Log files
+*.log
+storage/logs/*
+
+# Testing files and directories
+tests/*
+phpunit.xml
+
+# Development-specific files and directories
+.idea # PhpStorm
+.vscode
+*.swp # Swap files
+*~    # Backup files
+.cache
+
+# Sensitive files (never include these in your image!)
+.env
+
+# Files that might be generated during development but shouldn't be in the image
+.php_cs.cache  # PHP CS Fixer cache
+.styleci.cache # StyleCI cache
+
+# Laravel-specific files that are usually regenerated
+public/mix-manifest.json # If using Laravel Mix
+public/hot               # For Vite HMR
+
+# Directories that are often large and unnecessary in the image
+.history # bash history
