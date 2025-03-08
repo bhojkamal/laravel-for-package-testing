@@ -2,5 +2,6 @@
 
 return [
   'repository_path' => 'app/Repositories',
-  'transformer_path' => 'app/Domain/Transformers',
+  'transformer_path' => 'app/Http/Transformers',
+  'filter_path' => 'app/Http/Filters'
 ];
