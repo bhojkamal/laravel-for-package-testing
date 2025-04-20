@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a8da08c86411b5e79e4e74931a273c9",
+    "content-hash": "91dc596d63324d79a9ce7cf461604f93",
     "packages": [
         {
             "name": "brick/math",
@@ -1852,7 +1852,7 @@
         },
         {
             "name": "league/fractal",
-            "version": "0.20.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/fractal.git",
@@ -1883,6 +1883,7 @@
                 "laminas/laminas-paginator": "Laminas Framework Paginator",
                 "pagerfanta/pagerfanta": "Pagerfanta Paginator"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3224,13 +3225,13 @@
             "dist": {
                 "type": "path",
                 "url": "/var/www/laravel-repository",
-                "reference": "915803478af8702f702a3acebb03bdaf04334512"
+                "reference": "25f04d5680e4250d69e46ab86da13e7486c43427"
             },
             "require": {
                 "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
                 "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
                 "league/fractal": "^0.20.1",
-                "php": "^8.0"
+                "php": "^8.2"
             },
             "require-dev": {
                 "larastan/larastan": "^2.9",
@@ -3281,6 +3282,7 @@
                 "laravel-repository"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": false
             }
         },
