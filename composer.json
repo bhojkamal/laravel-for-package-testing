@@ -12,12 +12,14 @@
     "php": "^8.3",
     "inertiajs/inertia-laravel": "^2.0",
     "laravel/framework": "^13.0",
+    "laravel/mcp": "^0.7.0",
     "laravel/tinker": "^3.0",
     "puncoz/laravel-repository": "dev-main",
     "tightenco/ziggy": "^2.4"
   },
   "require-dev": {
     "fakerphp/faker": "^1.23",
+    "laravel/boost": "^2.4",
     "laravel/pail": "^1.2.5",
     "laravel/pint": "^1.27",
     "laravel/sail": "^1.41",
@@ -42,7 +44,8 @@
   "scripts": {
     "post-autoload-dump": [
       "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-      "@php artisan package:discover --ansi"
+      "@php artisan package:discover --ansi",
+      "@php artisan boost:update --ansi"
     ],
     "post-update-cmd": [
       "@php artisan vendor:publish --tag=laravel-assets --ansi --force"

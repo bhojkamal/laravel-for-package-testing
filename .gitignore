@@ -23,3 +23,9 @@ yarn-error.log
 /.vscode
 /.zed
 /.claude
+/.agents
+/.codex
+/.github
+.mcp.json
+AGENTS.md
+boost.json
