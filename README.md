@@ -1,6 +1,6 @@
 # Fresh Laravel for laravel-repository testing
 
-laravel-for-package-testing is a Docker-based environment setup for Laravel 12 with the Laravel Starter Kit (React). It runs with PostgreSQL (PGSQL), Traefik, Redis, Mail services, and other necessary configurations to streamline Laravel-repository testing with Dock Repo for docker. 
+test_laravel13 is a Docker-based environment setup for Laravel 13 with the Laravel Starter Kit (React). It runs with PostgreSQL (PGSQL), Traefik, Redis, Mail services, and other necessary configurations to streamline Laravel-repository testing with Dock Repo for docker. 
 
 ---
 
